@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@test-ang-monorepo/orders": ["libs/orders/src/index.ts"],
       "@test-ang-monorepo/products": ["libs/products/src/index.ts"]
     }
   },
