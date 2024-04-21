@@ -2,7 +2,10 @@
   "name": "@test-ang-monorepo/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "dev-my-ang-store": "nx serve my-angular-store",
+    "dev-my-inventory": "nx serve my-inventory"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~17.3.0",
