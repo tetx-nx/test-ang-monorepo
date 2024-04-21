@@ -8,7 +8,8 @@ import {RouterLink} from "@angular/router";
   imports: [CommonModule, RouterLink],
   template: `
     <h1>Welcome!</h1> <br />
-    <a [routerLink]="['products']">Products</a>
+    <a [routerLink]="['products']">Products</a> <br />
+    <a [routerLink]="['orders']">Orders</a> <br />
   `,
   styles: [],
   encapsulation: ViewEncapsulation.None,

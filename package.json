@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "dev-my-ang-store": "nx serve my-angular-store",
-    "dev-my-inventory": "nx serve my-inventory"
+    "dev-my-inventory": "nx serve my-inventory --port=4201"
   },
   "private": true,
   "dependencies": {
